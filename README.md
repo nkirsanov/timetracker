@@ -21,7 +21,7 @@
 
 1. Клонируйте репозиторий:
 ```bash
-git clone [https://github.com/nkirsanov/timetracker.git]
+git clone https://github.com/nkirsanov/timetracker.git
 cd TimeTracker
 ```
 2. Установите зависимости:
