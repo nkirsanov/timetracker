@@ -36,3 +36,20 @@ python main.py
 ```bash
 python -m unittest test_employee.py
 ```
+
+### Файловая структура проекта
+```
+TimeTracker/
+├── main.py              # Точка входа в приложение
+├── gui.py               # Графический интерфейс
+├── employee.py          # Класс Employee - модель сотрудника
+├── data_manager.py      # Менеджер данных для работы с CSV
+├── analysis.py          # Построение графиков
+├── project.py           # Класс Project
+├── test_employee.py     # Тесты для класса Employee
+├── requirements.txt     # Зависимости проекта
+├── README.md            # Документация
+├── .gitignore           # Игнорируемые файлы Git
+└── data/                # Папка для хранения данных
+    └── employees.csv    # Файл с данными сотрудников
+```
